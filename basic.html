@@ -6,17 +6,6 @@
 </head>
 
 <body>
-  <p>요약</p>
-  <p>
-   1. Headings and sub-headings, <h1> to <h6> tags, are used to enlarge text. <br>
-   2. <p>, <span> and <div> tags specify text or blocks.<br>
-   3. The <em> and <strong> tags are used to emphasize text.<br>
-   4. Line breaks are created with the <br> tag.<br>
-   5. Ordered lists (<ol>) are numbered and unordered lists (<ul>) are bulleted.<br>
-   6. Images (<img>) and videos (<video>) can be added by linking to an existing source.<br>
-   7. Anchor tags (<a>) are used to link to internal pages, external pages or content on the same page.<br>
-   8. You can create sections on a webpage and jump to them using <a> tags and addings ids to the elements you wish to jump to.<br>
-   9. The nav element contains links to internal pages or content.</p>
 
   <nav> <!-- 같은 사이트 내 페이지 이동 -->
     <a href="./index.html">Brown Bear</a>
@@ -35,7 +24,8 @@
     <h2>About Brown Bears</h2>
     <p>The brown bear (<em>Ursus arctos</em>) is native to parts of northern Eurasia and North America. Its conservation status is currently <strong>Least Concern</strong>.<br /><br /> There are many subspecies within the brown bear species, including the
       Atlas bear and the Himalayan brown bear.</p>
-    <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">Learn More</a>
+    <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">Learn More</a> <!-- target=_blank : 새 창에서 띄우기 -->
+
     <h3>Species</h3>
     <ol> <!-- orderd lists -->
       <li>Arctos</li>
@@ -62,6 +52,32 @@
     <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/web101-image_brownbear.jpg" />
     <video src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-1/lesson-2/htmlcss1-vid_brown-bear.mp4" height="240" width="320" controls>Video not supported</video>
   </div>
+
+<!-- 2. Table Tags -->
+  <table>
+    <thead>
+      <tr>
+        <th>회사명</th>
+        <th>개수</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>Google</td>
+        <td>1</td>
+        <td colspan="3"></td> <!-- 셀합치기(열) -->
+      </tr>
+    </tbody>
+
+    <tfoot>
+      <tr>
+        <td>Total</td>
+        <td>1</td>
+        <td rowspan="4"></td> <!-- 셀합치기(행) -->
+      </tr>
+    </tfoot>
+  </table>
 
 </body>
 
