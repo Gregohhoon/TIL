@@ -1,0 +1,29 @@
+
+    p {
+      font-family: Arial;
+      text-transform: uppercase;
+      color: gray;
+    }
+
+
+		.title {
+  		color: teal;
+    } /* 클래스가 'title'인 것 선택자 */
+
+    h2.destination{
+      font-family: cursive;
+    } /* chaining : h2태그의 destination 클래스 선택 */
+
+    .description h5{
+			color: teal;
+    } /* Nested Elements에 적용 */
+
+    /* Tag > Class > Id 순으로 specificity 증가 (뒤쪽의 속성이 우선) */
+
+    h5{
+      color: rebeccapurple !important;
+    }  /* !important : 무조건 적용  (specificity 강력. overriding 기능) */
+
+    p, h5{
+      font-family: Georgia;
+    }  /* 다중선택 */
