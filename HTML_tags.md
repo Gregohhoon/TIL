@@ -1,10 +1,10 @@
-<!--
-Headings and sub-headings, <h1> to <h6> tags, are used to enlarge text.
-<p>, <span> and <div> tags specify text or blocks.
-The <em> and <strong> tags are used to emphasize text.
-Line breaks are created with the <br> tag.
-Ordered lists (<ol>) are numbered and unordered lists (<ul>) are bulleted.
-Images (<img>) and videos (<video>) can be added by linking to an existing source.
-Anchor tags (<a>) are used to link to internal pages, external pages or content on the same page.
-You can create sections on a webpage and jump to them using <a> tags and addings ids to the elements you wish to jump to.
-The nav element contains links to internal pages or content. -->
+
+h1 ~ h6 : 제목 텍스트
+p, span : 텍스트 태그
+div : 블럭 태그 (구획설정)
+em(italic), strong(bold) : 텍스트 강조
+br : 줄바꾸기
+ol : Ordered lists, ul : unordered lists
+img, video
+a: Anchor tags. 내/외부 페이지 및 데이터 연결. 페이지 내부의 다른 태그로 이동
+nav : navigator (메뉴 항목 묶음)
